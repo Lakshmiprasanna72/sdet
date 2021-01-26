@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class activity2 {
@@ -15,7 +15,7 @@ public class activity2 {
 	
 	WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeClass
 	public void beforeClass()
 	{
 		 driver = new FirefoxDriver();
