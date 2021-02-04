@@ -1,0 +1,13 @@
+listOne = [10, 20, 23, 11, 15]
+listTwo = [13, 43, 14, 36, 19]
+print("First List ", listOne)
+print("Second List ", listTwo)
+thirdList = []
+for num in listOne:
+    if (num % 2 != 0):
+        thirdList.append(num)
+for num in listTwo:
+    if (num % 2 == 0):
+        thirdList.append(num)
+print("Result List is:")
+print(thirdList)
